@@ -456,55 +456,22 @@ const data = [
  * 
  */
 
-// const getTeamsByConf =(conf)=> {
-//     // let confTeams = []
 
-//     // for (let i = 0; i < data.length; i++) {
-//     //     if (data[i].conference == conf) {
-//     //         confTeams = [...confTeams, data[i]]
-//     //     }
-//     // }
 
-//     confTeams = data.filter(team => team.conference == conf)
+//     
 
-//     console.log(confTeams)
-// }
 
-// getTeamsByConf('afc')
-// getTeamsByConf('nfc')
-
-// getTeamsByConf('afc')
-
-// let afcTeams = data.filter(team => team.conference == 'atc')
-
-// console.log(afcTeams);
 
 
 /**
  * 2. write a function that takes a state as an argument and will filter through the objects and return all teams in that state
  */
 
-// const getTeamsByState = (state)=> {
-//     let stateTeams = data.filter(team => team.state == state)
-
-//     console.log(stateTeams)
-// }
-
-// getTeamsByState('florida')
 
 /**
  * 3. write a function that will map through the data and return an array of all teams by location and team. ex ['arizona cardinals', 'atlanta falcons', etc]
  */
 
-// const nflTeams =(arr)=> {
-//     let nflTeams = arr.map(team => `${team.location} ${team.team}`)
-
-
-
-//     console.log(nflTeams)
-
-// }
-// nflTeams(data)
 
 /**
  * 4. write a function that takes a conference and division as an argument and will filter through the data and return all teams from that conference and division *hint each one should have four teams*
@@ -513,39 +480,12 @@ const data = [
 // const getDivTeams =(conf, div)=> {
 //     let division = data.filter(team => team.conference == conf && team.division == div)
 
-//     // for (let obj of division) {
-//     //     teams = [...teams, item.team]
-//     // }
-//     let teams = division.map(team => team.team)
-
-//     console.log(teams)
-// }
-
-// getDivTeams('afc',' south')
 
 /**
  * 5. write a function that will sort through the teams and place them in 
  * either one of two arrays: hasWonASuperBowl or hasNotWonASuperBowl
  */
 
-let hasWonASuperBowl = []
-let hasNotWonASuperBowl = []
-
-const sortTeams = ()=> {
-    
-
-    let hasWon = data.filter(team => team.superBowlWins > 0)
-    let hasNotWonASuperBowl = data.filter(team => team.superBowlWins == 0)
-
-    hasWonASuperBowl = hasWon.map(team => team.team)
-    hasNotWonASuperBowl = hasNotWonASuperBowl.map(team => team.team)
-}
-
-sortTeams()
-
-console.log(hasNotWonASuperBowl)
-console.log(hasWonASuperBowl)
-console.clear()
 
 /**
  * 6. Make a cards for each team and display it on the browser. 
