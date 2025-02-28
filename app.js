@@ -528,31 +528,7 @@ const data = [
 /**
  * 5. write a function that will sort through the teams and place them in 
  * either one of two arrays: hasWonASuperBowl or hasNotWonASuperBowl
- */
-//let hasWonASuperBowl = []
-//let hasNotWonASuperBowl = []
 
-//const sortTeams = ()=> {
-    // for (let i = 0; i < data.length; i++) {
-    //     if (data[i].superBowlWins == 0) {
-    //         hasNotWonASuperBowl.push(data[i].team)
-    //     } else {
-    //         hasWonASuperBowl.push(data[i].team)
-    //     }
-    // }
-
-  //  let hasWon = data.filter(team => team.superBowlWins > 0)
-  //  let hasNotWonASuperBowl = data.filter(team => team.superBowlWins == 0)
-
- //   hasWonASuperBowl = hasWon.map(team => team.team)
-  // hasNotWonASuperBowl = hasNotWonASuperBowl.map(team => team.team)
-//}
-
-//sortTeams()
-
-//console.log(hasNotWonASuperBowl)
-//console.log(hasWonASuperBowl)
-//console.clear()
 
 
 /**
