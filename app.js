@@ -532,13 +532,7 @@ let hasWonASuperBowl = []
 let hasNotWonASuperBowl = []
 
 const sortTeams = ()=> {
-    // for (let i = 0; i < data.length; i++) {
-    //     if (data[i].superBowlWins == 0) {
-    //         hasNotWonASuperBowl.push(data[i].team)
-    //     } else {
-    //         hasWonASuperBowl.push(data[i].team)
-    //     }
-    // }
+    
 
     let hasWon = data.filter(team => team.superBowlWins > 0)
     let hasNotWonASuperBowl = data.filter(team => team.superBowlWins == 0)
